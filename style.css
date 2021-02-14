@@ -29,3 +29,8 @@
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.resume {
+    margin-left: 200px;
+    margin-right: 200px;
+}
