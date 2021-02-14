@@ -31,6 +31,22 @@
 }
 
 .resume {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 400px;
+    margin-right: 400px;
 }
+
+.bodyp {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#socials {
+    text-align: center;
+    margin-right: 100px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 60%;
+    padding-bottom: 40px;
+  }
