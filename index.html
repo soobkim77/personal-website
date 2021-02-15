@@ -2,6 +2,8 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="style.css">
+        <link rel="script" href="script.js">
+        <script type="text/javascript" src="script.js"></script>
         <title>Soo-Beom Kim | Software Developer</title>
     </head>
     <body>
@@ -22,33 +24,36 @@
             </div>
             <!-- bio -->
             <div id="bio">
-                <h2 class="sectionhead">About</h2>
-                <p>Hello all, <br><br>
-                    My name is Soo-Beom Kim but most people commonly refer to me as Soob. I was born in South Korea and immigrated as the age of 2. Since then, I have lived in the South Puget Sound area, graduating from Puyallup High School (2016) and the University of Washington (2020). <br><br>
-                    As a recent college graduate, I found myself lost at my next steps. Realizing that my Political Science degree had left me limited options, I decided to enroll in a software development course at the Flatiron School. This page will serve as a reminder for where my journey started and hopefully will reflect my growth as time passes.
-                </p>
+                <button type="button" class="collapsible" onclick="collapse()">About</button>
+                <div class="about">
+                    <!-- <h2 class="sectionhead">About</h2> -->
+                    <p>Hello all, <br><br>
+                        My name is Soo-Beom Kim but most people commonly refer to me as Soob. I was born in South Korea and immigrated as the age of 2. Since then, I have lived in the South Puget Sound area, graduating from Puyallup High School (2016) and the University of Washington (2020). <br><br>
+                        As a recent college graduate, I found myself lost at my next steps. Realizing that my Political Science degree had left me limited options, I decided to enroll in a software development course at the Flatiron School. This page will serve as a reminder for where my journey started and hopefully will reflect my growth as time passes.
+                    </p>
+                </div>
             </div>
             <!-- Resume -->
             <div>
-                <h2 class="sectionhead">Experience</h2>
-               
-                    <ul>Medical Scheduler - Mitchell MCN (Sept 2020 - Feb. 2021)
-                        <li>Managed over 130 active cases ranging from chart reviews to indendent medical evaluations in Microsoft CRM Database Cadence</li>
-                        <li>Delivered excellent customer service by coordinating communication between clients, claimants, attorneys, and phsycians</li>
-                        <li>Adhered to legal guidelines around Protected Health Information and HIPAA guidelines</li>
-                    </ul>
-                    <ul>Tech Team Student Assistant - Department of Communication, University of Washington (Oct 2018 - June 2020)
-                        <li>Created Standard Operating Procedures for deployment of lab, faculty, and staff computers, printers, and equipment</li>
-                        <li>Routinely patched and maintained all systems deployed in the department with key software updates to operating systems</li>
-                        <li>Maintained up-to-date inventories of all equipment in classrooms, labs, and offices</li>
-                    </ul>
-                    <ul>Administrative Assistant - Department of Communication, University of Washington (April 2017 - Oct 2018, March 2020 - June 2020)
-                        <li>Established digital file system for all department transactions adhereing to University guidelines in response to COVID-19 Pandemic and re-organized physical filing system in accordance with results from a department audit in 2018</li>
-                        <li>Assisted in general budget reconciliation for over 20 budgets in the departments name</li>
-                        <li>General administrative tasks included tasks for department office inventories, routing mail, and managing the front desk</li>
+                <button type="button" class="collapsible" onclick="collapse()">Experience</button>
+                    <div class="about"> 
+                        <ul>Medical Scheduler - Mitchell MCN (Sept 2020 - Feb. 2021)
+                            <li>Managed over 130 active cases ranging from chart reviews to indendent medical evaluations in Microsoft CRM Database Cadence</li>
+                            <li>Delivered excellent customer service by coordinating communication between clients, claimants, attorneys, and phsycians</li>
+                            <li>Adhered to legal guidelines around Protected Health Information and HIPAA guidelines</li>
+                        </ul>
+                        <ul>Tech Team Student Assistant - Department of Communication, University of Washington (Oct 2018 - June 2020)
+                            <li>Created Standard Operating Procedures for deployment of lab, faculty, and staff computers, printers, and equipment</li>
+                            <li>Routinely patched and maintained all systems deployed in the department with key software updates to operating systems</li>
+                            <li>Maintained up-to-date inventories of all equipment in classrooms, labs, and offices</li>
+                        </ul>
+                        <ul>Administrative Assistant - Department of Communication, University of Washington (April 2017 - Oct 2018, March 2020 - June 2020)
+                            <li>Established digital file system for all department transactions adhereing to University guidelines in response to COVID-19 Pandemic and re-organized physical filing system in accordance with results from a department audit in 2018</li>
+                            <li>Assisted in general budget reconciliation for over 20 budgets in the departments name</li>
+                            <li>General administrative tasks included tasks for department office inventories, routing mail, and managing the front desk</li>
 
-                    </ul>
-                
+                        </ul>
+                    </div>
             </div>
             <!-- Contact -->
             <div id="socials">
